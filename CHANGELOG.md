@@ -2,6 +2,9 @@
 
 ## Workflow changes associated with Pipeline version [GL-DPPD-7104-C](https://github.com/nasa/GeneLab_Data_Processing/blob/master/Amplicon/Illumina/Pipeline_GL-DPPD-7104_Versions/GL-DPPD-7104-C.md)
 
+## [2.0.0]()
+- Workflow now written and implemented in Nextflow
+
 <br>
 
 ---
@@ -80,4 +83,4 @@
   - added the `-j` flag to drop them since there is no directory structure needed for this single file
 
 ## [1.0.0](https://github.com/nasa/GeneLab_Data_Processing/tree/SW_AmpIllumina-A_1.0.0/Amplicon/Illumina/Workflow_Documentation/SW_AmpIllumina-A)
-- original workflow version
+- original workflow version, written in snakemake
